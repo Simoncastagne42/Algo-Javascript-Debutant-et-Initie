@@ -49,6 +49,11 @@
 //   }
 // });
 
-// exercices 8
-let nombres = [2, 1, 250, -20, 6, -5, 100];
-console.log(Math.max(...nombres));
+// // exercice 8
+// let nombres = [2, 1, 250, -20, 6, -5, 100];
+// console.log(Math.max(...nombres));
+
+// exercice 9
+let mot = "pinguin"
+let motenvers = mot.split(/(?:)/u).reverse().join("");
+console.log(motenvers);
