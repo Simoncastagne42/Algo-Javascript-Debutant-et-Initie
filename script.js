@@ -27,7 +27,6 @@
 // exercice 6 non réussi
 // const PHRASE = "Je m'appelle Simon";
 // let regex = /[a-zA-Z]/g;
-// let count = 0;
 // console.log(PHRASE.match(regex));
 
 
@@ -36,8 +35,8 @@
 // console.log(nombres.slice(2));
 // console.log(nombres.slice(0,2));
 
-// let nombres = [2, 1, -20, 6, -5, -10];
 
+// let nombres = [2, 1, -20, 6, -5, -10];
 // // nombres.forEach((num) => {
 // //   if (num > 0) {
 // //     console.log(num);
@@ -49,3 +48,7 @@
 //     console.log(numneg);
 //   }
 // });
+
+// exercices 8
+let nombres = [2, 1, 250, -20, 6, -5, 100];
+console.log(Math.max(...nombres));
