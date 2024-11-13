@@ -1,7 +1,30 @@
-let nombre1=5;
-let nombre2=10;
-console.log(nombre1+nombre2);
+// exercice 2
 
-let fruits= ["pomme", "banane", "cerise"];
-for (let i = 0; i <= 2; i = i +1);
-console.log(fruits);
+// let nombre1=5;
+// let nombre2=10;
+// console.log(nombre1+nombre2);
+
+// // exercice 3
+
+// let fruits= ["pomme", "banane", "cerise"];
+// for (let i = 0; i <= 2; i = i +1);
+// console.log(fruits);
+
+// exercice 4
+
+// for (let i = 1; i < 20; i ++)
+// if (i % 2 === 0) {
+//   console.log(i);
+// }
+
+// exercice 5
+
+const Prenom = "Simon";
+
+// let voyelles = ["a", "e", "i", "o", "u", "y"];
+// voyelles.forEach((voyelle) => {
+//   console.log(voyelle);
+// });
+
+let regex2 = /[aeiouy]/g;
+console.log(Prenom.search(regex2));
