@@ -19,12 +19,6 @@
 
 // exercice 5
 
-const Prenom = "Simon";
-
-// let voyelles = ["a", "e", "i", "o", "u", "y"];
-// voyelles.forEach((voyelle) => {
-//   console.log(voyelle);
-// });
-
-let regex2 = /[aeiouy]/g;
-console.log(Prenom.search(regex2));
+// const Prenom = "Simon";
+// let regex2 = /[aeiouy]/g;
+// console.log(Prenom.match(regex2));
