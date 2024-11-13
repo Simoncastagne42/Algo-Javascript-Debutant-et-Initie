@@ -22,3 +22,30 @@
 // const Prenom = "Simon";
 // let regex2 = /[aeiouy]/g;
 // console.log(Prenom.match(regex2));
+
+
+// exercice 6 non réussi
+// const PHRASE = "Je m'appelle Simon";
+// let regex = /[a-zA-Z]/g;
+// let count = 0;
+// console.log(PHRASE.match(regex));
+
+
+// exercice 7 
+// let nombres = [2, 1, -5, -10, -20];
+// console.log(nombres.slice(2));
+// console.log(nombres.slice(0,2));
+
+// let nombres = [2, 1, -20, 6, -5, -10];
+
+// // nombres.forEach((num) => {
+// //   if (num > 0) {
+// //     console.log(num);
+// //   }
+// // });
+
+// nombres.forEach((numneg) => {
+//   if (numneg < 0) {
+//     console.log(numneg);
+//   }
+// });
